@@ -40,5 +40,5 @@ $ npm run prod
 
 ### Considerações
 - Os métodos estão decorados com os seus parâmetros, descrição e até mesmo exemplos. Para melhor visualizarem utilizem o VSCODE;
-- A estrutura do projeto faz utiliza o modelo MVC ( Model, View e Controller ) porém sem a utilização de views;
+- A estrutura do projeto utiliza o modelo MVC ( Model, View e Controller ) porém sem a utilização de views;
 - O algoritmo desenvolvido não salva os registro diariamente, sendo assim é necessário realizar o processamento de alguns dados no caso de um filtro por exemplo. Algo que pode-se tornar relevante é o custo do processamento, que para resolve-lo deveria se alternar e consumir mais armazenamento
