@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "watch": "tsc-watch --onSuccess \"node ./www/server.js\" --onFailure \"echo Verifique o erro\" --compiler typescript/bin/tsc",
+    "build": "tsc",
+    "dev": "ts-node ./src/server.ts",
+    "start": "tsc && nodemon ./www/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "tsc-watch": "^1.1.35",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.1",
+    "body-parser": "1.16.0",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "rethinkdb": "^2.3.3"
+  }
+}
