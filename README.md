@@ -15,9 +15,7 @@ https://documenter.getpostman.com/view/1208373/RztiuqRv
 │   ├───models
 │   │       regrasModel.ts
 │   └───routes
-│           rotas.ts
-└───www
-    | build files
+            rotas.ts
  ```
  
  ### Executanto a API
